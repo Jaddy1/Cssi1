@@ -1,0 +1,19 @@
+<html>
+
+  <head>
+  </head>
+
+  <body>
+    <h1>GIF</h1>
+    {% if not empty  %}
+    <img src = {{urlgif}} />
+    {% else %}
+    <h2>Re-search</h2>
+    <form method = "post">
+      <p>Search gifs: <input type = "text" name = "searchGIFs"/></p>
+      <button type = "submit">Search</button>
+    </form>
+    {% endif %}
+  </body>
+
+</html>

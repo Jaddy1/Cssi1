@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <title>Flex practice</title>
+    <style>
+      #red{
+        background-color: red;
+        flex-grow: 1;
+      }
+      #blue{
+        background-color: blue;
+        flex-grow: 2;
+      }
+      #green{
+        background-color: green;
+        flex-grow: 1;
+      }
+      .box{
+        height: 200px;
+        width: 200px;
+      }
+      #parent{
+        border: 2px dashed grey;
+        display: flex; /*Always needed for flex positioning*/
+        justify-content: center;
+        /*width: 500px;
+        flex-wrap: wrap-reverse;*/
+        /*height: 100%;
+        align-items: */
+
+      }
+    </style>
+  </head>
+  <body>
+    <section id="parent">
+      <div class = "box" id="red"></div>
+      <div class = "box" id="blue"></div>
+      <div class="box" id="boxspacer"></div>
+      <div class = "box" id="green"></div>
+    </section>
+  </body>
+</html>

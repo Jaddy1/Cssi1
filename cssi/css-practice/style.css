@@ -1,0 +1,37 @@
+body{
+  font-family: monospace;
+}
+h1{
+  color: blue;
+}
+h2{
+  color: red;
+  font-weight: bold;
+}
+p{
+  text-indent: 4cm;
+}
+#Old{
+  width: 400px;
+  height: 400px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 5px solid black;
+}
+#New{
+  width: 400px;
+  height: 400px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 5px solid black;
+}
+#then{
+  padding-left: 200 px;
+}
+#now{
+
+}
